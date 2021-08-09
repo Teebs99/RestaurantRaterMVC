@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace RestaurantRaterMVC.Models
+namespace RestaurantRater.Models
 {
     public class Restaurant
     {
@@ -12,6 +12,7 @@ namespace RestaurantRaterMVC.Models
         public string Name { get; set; }
         public string Address { get; set; }
         public int Rating { get; set; }
+        
     }
 
     public class RestaurantDbContext : DbContext
